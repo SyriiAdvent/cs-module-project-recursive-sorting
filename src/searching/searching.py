@@ -20,5 +20,8 @@ def binary_search(arr, target, start, end):
 # You can implement this function either recursively 
 # or iteratively
 def agnostic_binary_search(arr, target):
-    # Your code here
+    # if arr[len(arr) - 1] > arr[0]:
+    #     binary_search(arr, target, 0, len(arr) - 1)
+    # else:
+    #     binary_search(arr, target, len(arr) - 1, 0)
     pass
